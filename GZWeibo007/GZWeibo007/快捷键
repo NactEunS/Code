@@ -1,0 +1,10 @@
+折叠代码: option + command + ←
+展开代码: option + command + →
+
+查看当前文件位置: command + shift + j
+
+上下移动代码: option + command + [上 / ]下
+
+左右移动代码: command + [左 / ]右
+
+xcode切换: command + `
