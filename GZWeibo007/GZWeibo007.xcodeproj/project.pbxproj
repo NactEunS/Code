@@ -32,6 +32,8 @@
 		186F89921C20095A0014614C /* CZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F89911C20095A0014614C /* CZBaseViewController.swift */; };
 		186F89941C200C8A0014614C /* CZVistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F89931C200C8A0014614C /* CZVistorView.swift */; };
 		186F89971C200FF70014614C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186F89961C200FF70014614C /* Storyboard.storyboard */; };
+		18B22C051C2EACD400FFF214 /* CZForwardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B22C041C2EACD400FFF214 /* CZForwardController.swift */; };
+		18B22C081C2EAD1000FFF214 /* CZStatusDetailJuHuaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B22C071C2EAD1000FFF214 /* CZStatusDetailJuHuaCell.swift */; };
 		18EBDBFC1C27E713007AE4C2 /* CZStatusForwardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBDBFB1C27E713007AE4C2 /* CZStatusForwardCell.swift */; };
 		18EBDBFE1C27EC6C007AE4C2 /* CZStatusNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBDBFD1C27EC6C007AE4C2 /* CZStatusNormalCell.swift */; };
 		18EBDC001C27FB05007AE4C2 /* statuses.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EBDBFF1C27FB05007AE4C2 /* statuses.json */; };
@@ -69,6 +71,8 @@
 		186F89911C20095A0014614C /* CZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBaseViewController.swift; sourceTree = "<group>"; };
 		186F89931C200C8A0014614C /* CZVistorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZVistorView.swift; sourceTree = "<group>"; };
 		186F89961C200FF70014614C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		18B22C041C2EACD400FFF214 /* CZForwardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZForwardController.swift; sourceTree = "<group>"; };
+		18B22C071C2EAD1000FFF214 /* CZStatusDetailJuHuaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusDetailJuHuaCell.swift; sourceTree = "<group>"; };
 		18EBDBFB1C27E713007AE4C2 /* CZStatusForwardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusForwardCell.swift; sourceTree = "<group>"; };
 		18EBDBFD1C27EC6C007AE4C2 /* CZStatusNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZStatusNormalCell.swift; sourceTree = "<group>"; };
 		18EBDBFF1C27FB05007AE4C2 /* statuses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = statuses.json; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 		185FBE961C26A3DB00FB849A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				18B22C061C2EACF200FFF214 /* Forward */,
 				185FBE971C26A3FF00FB849A /* CZStatusCell.swift */,
 				18EBDBFD1C27EC6C007AE4C2 /* CZStatusNormalCell.swift */,
 				18EBDBFB1C27E713007AE4C2 /* CZStatusForwardCell.swift */,
@@ -242,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				186F89851C1FF7B40014614C /* CZHomeViewController.swift */,
+				18B22C041C2EACD400FFF214 /* CZForwardController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -380,6 +386,14 @@
 				186F89961C200FF70014614C /* Storyboard.storyboard */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		18B22C061C2EACF200FFF214 /* Forward */ = {
+			isa = PBXGroup;
+			children = (
+				18B22C071C2EAD1000FFF214 /* CZStatusDetailJuHuaCell.swift */,
+			);
+			path = Forward;
 			sourceTree = "<group>";
 		};
 		18EE1EED1C1FEFCE00DE681B = {
@@ -584,6 +598,7 @@
 				184520E01C279BB600408137 /* UILabel+Extension.swift in Sources */,
 				185FBE8D1C26467F00FB849A /* CZHomeTitleView.swift in Sources */,
 				186F89841C1FF6340014614C /* AppDelegate.swift in Sources */,
+				18B22C081C2EAD1000FFF214 /* CZStatusDetailJuHuaCell.swift in Sources */,
 				186F89921C20095A0014614C /* CZBaseViewController.swift in Sources */,
 				18420EA11C23E38B00252FAD /* CZUserAccount.swift in Sources */,
 				184520E21C279D4900408137 /* CZStatusPictureView.swift in Sources */,
@@ -593,6 +608,7 @@
 				18F35A6C1C22AE140011C8F8 /* CZNewFeatureViewController.swift in Sources */,
 				186F898A1C1FF80F0014614C /* CZDiscoveryViewController.swift in Sources */,
 				185FBE8B1C263EAA00FB849A /* UIBarButtonItem+Button.swift in Sources */,
+				18B22C051C2EACD400FFF214 /* CZForwardController.swift in Sources */,
 				186F89881C1FF8000014614C /* CZMessageViewController.swift in Sources */,
 				186F89901C2001270014614C /* CZMainTabbar.swift in Sources */,
 				18F35A661C228F280011C8F8 /* CZNetworkTool.swift in Sources */,
