@@ -1,5 +1,5 @@
 //
-//  CZStatusDetailJuHuaCell.swift
+//  CZStatusDetailCell.swift
 //  GZWeibo007
 //
 //  Created by Apple on 15/12/26.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CZStatusDetailJuHuaCell: UITableViewCell {
+class CZStatusDetailCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

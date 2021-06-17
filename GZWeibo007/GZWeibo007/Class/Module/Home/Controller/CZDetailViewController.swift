@@ -1,5 +1,5 @@
 //
-//  CZForwardController.swift
+//  CZDetailViewController.swift
 //  GZWeibo007
 //
 //  Created by Apple on 15/12/26.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CZForwardController: UIViewController {
+class CZDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
